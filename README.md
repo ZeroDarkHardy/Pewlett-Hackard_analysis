@@ -11,19 +11,19 @@ Our client, Pewlett-Hackard, has recently become aware that an abnormally large 
 
 ## Results
 
-- [retirement_titles.csv](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Data/retirement_titles.csv): A spreadsheet containing names, employment dates and ALL titles held by potentially retiring current employees.
+[retirement_titles.csv](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Data/retirement_titles.csv): A spreadsheet containing names, employment dates and ALL titles held by potentially retiring current employees.
 
 ![retirement_titles.png](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Resources/retirement_titles.png)
 
 - We can see that this table has certain employees appearing multiple times, reflecting the many titles they've held during their employment with Pewlett-Hackard.
-- [unique_titles.csv](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Data/unique_titles.csv): A refined spreadsheet containing only the current title held by employees in the above pool.
+[unique_titles.csv](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Data/unique_titles.csv): A refined spreadsheet containing only the current title held by employees in the above pool.
 
 ![unique_titles.png](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Resources/unique_titles.png)
 
 - The same list of employees as shown in the first table, except drilled down using the the employment dates from the first table to isolate only the currently held positions.
 ---
 ### Potential Job Vacancies
-- [retiring_titles.csv](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Data/retiring_titles.csv): A Count of potentially retiring employees, by job title.
+[retiring_titles.csv](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Data/retiring_titles.csv): A Count of potentially retiring employees, by job title.
 
 ![retiring_titles.png](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Resources/retiring_titles.png)
 
@@ -34,7 +34,7 @@ Our client, Pewlett-Hackard, has recently become aware that an abnormally large 
 - Of those 72,458 employees, the VAST majority of them hold "Senior" titles.  These are employees with a wealth of professional experience that could be devastating to lose all at once.  Immediate implimentation of an internal mentorship is recommended to mitigate impact to company productivity.
 ---
 ### Candidates for Mentorship
-- [mentorship_eligibility.csv](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Data/mentorship_eligibility.csv): A spreadsheet containing the employees who are eligible for mentorship by one of the upcoming retirees.
+[mentorship_eligibility.csv](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Data/mentorship_eligibility.csv): A spreadsheet containing the employees who are eligible for mentorship by one of the upcoming retirees.
 
 ![mentorship_eligibility.png](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Resources/mentorship_eligibility.png)
 
