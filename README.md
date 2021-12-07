@@ -42,7 +42,7 @@ Our client, Pewlett-Hackard, has recently become aware that an abnormally large 
 - The client has asked that we compile a list of potential candidates for the recommended internal mentorship program, asking us to limit our search to employees born in the year 1965.  This query produced a list of 1,549 names.
 
 ## Summary
-    Pewlett-Hackard has a big problem here...  The parameters they've given us for finding suitable replacements for the outgoing retirees brings back only 2.1% of the number of people they'd need for a 1-to-1 replacement.  It also occurred to me that, more than likely, the candidates would need to come from the respective departments in which the outgoing employees currently work. Below is a comparison of the outgoing numbers vs. the candidates for mentorship, by department:
+- Pewlett-Hackard has a big problem here...  The parameters they've given us for finding suitable replacements for the outgoing retirees brings back only 2.1% of the number of people they'd need for a 1-to-1 replacement.  It also occurred to me that, more than likely, the candidates would need to come from the respective departments in which the outgoing employees currently work. Below is a comparison of the outgoing numbers vs. the candidates for mentorship, by department:
 
 ![retiree_vs_candidate_counts.png](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Resources/retiree_vs_candidate_counts.png)
 
