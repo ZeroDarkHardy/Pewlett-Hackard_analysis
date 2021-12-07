@@ -16,6 +16,7 @@ Our client, Pewlett-Hackard, has recently become aware that an abnormally large 
 ![retirement_titles.png](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Resources/retirement_titles.png)
 
 - We can see that this table has certain employees appearing multiple times, reflecting the many titles they've held during their employment with Pewlett-Hackard.
+
 [unique_titles.csv](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Data/unique_titles.csv): A refined spreadsheet containing only the current title held by employees in the above pool.
 
 ![unique_titles.png](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Resources/unique_titles.png)
