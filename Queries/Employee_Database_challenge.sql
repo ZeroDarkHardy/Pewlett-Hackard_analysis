@@ -44,6 +44,7 @@ ORDER BY e.emp_no;
 --candidates by department
 --Retirees count by department
 SELECT d.dept_name, COUNT(ut.emp_no)
+INTO dept_retiree_count
 FROM unique_titles as ut
 INNER JOIN dept_emp as de
     ON (ut.emp_no = de.emp_no)
@@ -53,6 +54,7 @@ GROUP BY d.dept_name
 ORDER BY COUNT (ut.emp_no) DESC;
 --mentorship candidates count by department
 SELECT d.dept_name, COUNT(me.emp_no)
+INTO dept_candidate_count
 FROM mentorship_eligibility as me
 INNER JOIN dept_emp as de
 	ON (me.emp_no = de.emp_no)

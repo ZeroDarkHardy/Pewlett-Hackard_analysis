@@ -22,7 +22,7 @@ Our client, Pewlett-Hackard, has recently become aware that an abnormally large 
 ![unique_titles.png](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Resources/unique_titles.png)
 
 - The same list of employees as shown in the first table, except drilled down using the the employment dates from the first table to isolate only the currently held positions.
-
+---
 ### Potential Job Vacancies
 - [retiring_titles.csv](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Data/retiring_titles.csv): A Count of potentially retiring employees, by job title.
 
@@ -39,5 +39,11 @@ Our client, Pewlett-Hackard, has recently become aware that an abnormally large 
 
 ![mentorship_eligibility.png](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Resources/mentorship_eligibility.png)
 
+- The client has asked that we compile a list of potential candidates for the recommended internal mentorship program, asking us to limit our search to employees born in the year 1965.  This query produced a list of 1,549 names.
 
 ## Summary
+    Pewlett-Hackard has a big problem here...  The parameters they've given us for finding suitable replacements for the outgoing retirees brings back only 2.1% of the number of people they'd need for a 1-to-1 replacement.  It also occurred to me that, more than likely, the candidates would need to come from the respective departments in which the outgoing employees currently work. Below is a comparison of the outgoing numbers vs. the candidates for mentorship, by department:
+
+![retiree_vs_candidate_counts.png](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Resources/retiree_vs_candidate_counts.png)
+
+- This is a fairly grim comparison, but my conclusion is simple: Pewlett-Hackard needs to greatly expand their criteria for selecting candidates.  It could very well be that date-of-birth isn't the best (or at least not the ONLY) pre-requisite for locating candidates, but if they decide to use only that criteria, then the search should at least expand well beyond a single birth year.  Looking at employees born AFTER 1965 would not only expand the pool of candidates, but would also benefit the company in that the newly trained senior employees may be around longer.
