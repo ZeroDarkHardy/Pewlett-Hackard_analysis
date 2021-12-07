@@ -5,8 +5,11 @@ INTO retirement_titles
 FROM employees as e
 INNER JOIN titles as t
     ON (e.emp_no = t.emp_no)
-WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
-ORDER BY e.emp_no
+INNER JOIN dept_emp as de
+    ON (e.emp_no = de.emp_no)
+WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31') 
+    AND (de.to_date = '9999-01-01')
+ORDER BY e.emp_no;
 
 -- Use Dictinct with Orderby to remove duplicate rows
 SELECT DISTINCT ON (rt.emp_no) re.emp_no,
@@ -34,15 +37,20 @@ FROM employees as e
 INNER JOIN dept_emp as de
     ON (e.emp_no = de.emp_no)
 WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+    AND (de.to_date = '9999-01-01')
 ORDER BY e.emp_no;
 
 --my own little contribution, comparing upcoming job vacancies with mentorship
 --candidates by department
 --Retirees count by department
-SELECT di.dept_name, COUNT(di.emp_no)
-FROM dept_info as di
-GROUP BY di.dept_name
-ORDER BY COUNT (di.emp_no) DESC;
+SELECT d.dept_name, COUNT(ut.emp_no)
+FROM unique_titles as ut
+INNER JOIN dept_emp as de
+    ON (ut.emp_no = de.emp_no)
+INNER JOIN departments as d
+    ON (de.dept_no = d.dept_no)
+GROUP BY d.dept_name
+ORDER BY COUNT (ut.emp_no) DESC;
 --mentorship candidates count by department
 SELECT d.dept_name, COUNT(me.emp_no)
 FROM mentorship_eligibility as me
