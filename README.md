@@ -1,6 +1,5 @@
 # Pewlett-Hackard Analysis
-
-PostgreSQL Queries
+### PostgreSQL Queries
 ---
 ## Overview of Analysis
 Our client, Pewlett-Hackard, has recently become aware that an abnormally large number of their employees may become eligible for retirement at the same time, many (or even most) of them in leadership roles.  Given 6 spreadsheets of company/employee data, we used SQL queries to identify the employees who will likely retire, the roles they currently fill, and a list of eligible candidates for mentorship to fill those roles.
@@ -33,7 +32,7 @@ Our client, Pewlett-Hackard, has recently become aware that an abnormally large 
 ![retiring_titles_barchart.png](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Resources/retiring_titles_barchart.png)
 
 - Of those 72,458 employees, the VAST majority of them hold "Senior" titles.  These are employees with a wealth of professional experience that could be devastating to lose all at once.  Immediate implimentation of an internal mentorship is recommended to mitigate impact to company productivity.
-
+---
 ### Candidates for Mentorship
 - [mentorship_eligibility.csv](https://github.com/ZeroDarkHardy/Pewlett-Hackard_analysis/blob/main/Data/mentorship_eligibility.csv): A spreadsheet containing the employees who are eligible for mentorship by one of the upcoming retirees.
 
