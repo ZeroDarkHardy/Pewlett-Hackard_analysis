@@ -4,6 +4,7 @@
 ## Overview of Analysis
 
 Our client, Pewlett-Hackard, has recently become aware that an abnormally large number of their employees may become eligible for retirement at the same time, many (or even most) of them in leadership roles.  Given 6 spreadsheets of company/employee data, we used SQL queries to identify the employees who will likely retire, the roles they currently fill, and a list of eligible candidates for mentorship to fill those roles.
+
 ---
 ### Resources:
 **Software:** PostreSQL 14, pgAdmin 4 v6.1, Visual Studio Code 1.62.3
