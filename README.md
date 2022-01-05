@@ -2,6 +2,7 @@
 ### PostgreSQL Queries
 ---
 ## Overview of Analysis
+
 Our client, Pewlett-Hackard, has recently become aware that an abnormally large number of their employees may become eligible for retirement at the same time, many (or even most) of them in leadership roles.  Given 6 spreadsheets of company/employee data, we used SQL queries to identify the employees who will likely retire, the roles they currently fill, and a list of eligible candidates for mentorship to fill those roles.
 ---
 ### Resources:
